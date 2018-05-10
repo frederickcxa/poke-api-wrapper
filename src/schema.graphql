@@ -1,0 +1,13 @@
+type Query {
+  pokemons(offset: Int!, limit: Int!): [Pokemon]!
+  pokemonById(id: Int!): Pokemon
+}
+
+type Pokemon {
+  id: Int!
+  order: Int!
+  name: String!
+  frontImage: String!
+  backImage: String!
+  types: [String!]!
+}

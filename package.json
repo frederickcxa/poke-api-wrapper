@@ -1,0 +1,13 @@
+{
+  "name": "poke-api-wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "graphql-yoga": "^1.13.1"
+  }
+}
